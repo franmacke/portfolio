@@ -1,3 +1,4 @@
+import BottomPage from "./Footer";
 import Header from "./Header";
 
 
@@ -13,6 +14,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     { children }
                 </div>
             </div>
+
+            <BottomPage />
         </div>
     )
 }

@@ -4,6 +4,7 @@ import Layout from "src/components/Layout";
 import Experience from "src/components/Experience";
 import Presentation from "src/components/Presentation";
 import Projects from "src/components/Projects";
+import AboutMe from "src/components/AboutMe";
 
 
 const HomeScreen = () => {
@@ -11,9 +12,10 @@ const HomeScreen = () => {
     return (
         <Layout>
             <Presentation />
+            <AboutMe />
             <Experience />
-            <Education />
             <Projects />
+            <Education />
             <Contact />
         </Layout>
     )

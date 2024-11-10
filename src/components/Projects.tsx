@@ -33,7 +33,7 @@ const projectList: ProjectProps[] = [
 const Projects = () => {
     return (
         <Section title="Projects">
-            <div className="flex-col">
+            <div className="grid grid-cols-2 gap-5">
                 { projectList.map((project, index) => (
                     <ProjectInfo key={index} project={project} />
                 )) }
