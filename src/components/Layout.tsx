@@ -2,13 +2,17 @@ import Header from "./Header";
 
 
 
-
 const Layout = ({ children }: { children: React.ReactNode }) => {
 
     return (
-        <div className="h-screen w-full bg-gray-50">
+        <div className="h-full w-full bg-gray-100">
             <Header />
-            { children }
+
+            <div className="h-full w-full flex justify-center items-center">
+                <div className="flex-col max-w-6xl w-full h-full">
+                    { children }
+                </div>
+            </div>
         </div>
     )
 }

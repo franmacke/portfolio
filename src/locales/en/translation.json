@@ -1,0 +1,85 @@
+{
+    "presentation": {
+        "description": "Software Developer"
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "items": {
+            "firstJob": {
+                "position": "QA Game Tester",
+                "company": "Blyts",
+                "status": "Present",
+                "description": "Identifying and documenting bugs to ensure optimal game performance and quality",
+                "responsibilities": {
+                    "first": "Detect and report game bugs, glitches, and inconsistencies",
+                    "second": "Perform regression testing to verify bug fixes",
+                    "third": "Provide feedback on game usability and player experience",
+                    "fourth": "Test game features on various platforms and devices",
+                    "fifth": "Suggest improvements for gameplay and user interface design"
+                }
+            },
+            "secondJob": {
+                "position": "React Native Developer",
+                "company": "Faciluz",
+                "status": "Present",
+                "description": "Developing a mobile application using React Native (Expo) framework",
+                "responsibilities": {
+                    "first": "Development of a mobile application focused on organizing and managing services for a hardware store, with features similar to delivery platforms.",
+                    "second": "Implementation of the user interface using React Native (Expo), optimizing the experience on iOS and Android devices.",
+                    "third": "Creation of a robust backend in Django to handle business logic, user authentication, and service management.",
+                    "fourth": "Integration of RESTful APIs for communication between the frontend and backend, ensuring efficient and secure data transmission.",
+                    "fifth": "Design and implementation of databases to manage services and users."
+    
+                }
+            },
+            "thirdJob": {
+                "position": "Full Stack Developer",
+                "company": "Freelance",
+                "description": "Development of web applications and APIs",
+                "responsibilities": {
+                    "first": "Design and implementation of responsive web applications using modern technologies such as React, Python, and Django.",
+                    "second": "Creation of RESTful APIs to enable communication between frontend and backend systems.",
+                    "third": "Integration of third-party services and APIs to enhance application functionality.",
+                    "fourth": "Collaboration with clients to understand project requirements and deliver customized solutions.",
+                    "fifth": "Maintenance and support of existing applications, including bug fixes and performance optimization."
+                }
+            }
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "items": {
+            "firstProject": {
+                "name": "Project 1",
+                "description": "Description of project 1"
+            },
+            "secondProject": {
+                "name": "Project 2",
+                "description": "Description of project 2"
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send"
+        }
+    },
+    "education": {
+        "title": "Education",
+        "items": {
+            "firstDegree": {
+                "name": "Informatics Engineering",
+                "institution": "University of Buenos Aires",
+                "status": "In progress"
+            },
+            "secondDegree": {
+                "name": "Electromechanical Technician",
+                "institution": "Philips Argentina Technological Institute"
+            }
+        }
+    }
+}

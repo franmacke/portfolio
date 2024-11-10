@@ -10,18 +10,21 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "flowbite-react": "^0.10.2",
+    "i18next": "^23.16.5",
     "porfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^15.1.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "tsc --build && tsc-alias"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^3.4.14",
+    "tsc-alias": "^1.8.10"
   }
 }

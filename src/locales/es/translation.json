@@ -1,0 +1,71 @@
+{
+    "presentation": {
+        "description": "Desarrollador de Software"
+    },
+    "experience": {
+        "title": "Experiencia Profesional",
+        "items": {
+            "firstJob": {
+                "position": "QA Game Tester",
+                "company": "Blyts",
+                "status": "Presente",
+                "description": "Identificación y documentación de errores para asegurar un rendimiento y calidad óptimos del juego",
+                "responsibilities": {
+                    "first": "Detectar y reportar errores, fallos e inconsistencias del juego",
+                    "second": "Realizar pruebas de regresión para verificar la corrección de errores",
+                    "third": "Proporcionar retroalimentación sobre la usabilidad y la experiencia del jugador",
+                    "fourth": "Probar características del juego en varias plataformas y dispositivos",
+                    "fifth": "Sugerir mejoras para la jugabilidad y el diseño de la interfaz de usuario"
+                }
+            },
+            "secondJob": {
+                "position": "Desarrollador React Native",
+                "company": "Faciluz",
+                "status": "Presente",
+                "description": "Desarrollo de una aplicación móvil utilizando el marco React Native (Expo)",
+                "responsibilities": {
+                    "first": "Desarrollo de una aplicación móvil orientada a la organización y gestión de servicios para una ferretería, con funcionalidades similares a plataformas de delivery.",
+                    "second": "Implementación de la interfaz de usuario utilizando React Native (Expo), optimizando la experiencia en dispositivos iOS y Android.",
+                    "third": "Creación de un backend robusto en Django para gestionar la lógica de negocio, autenticación de usuarios y control de servicios.",
+                    "fourth": "Integración de APIs RESTful para la comunicación entre el frontend y backend, garantizando eficiencia y seguridad en la transmisión de datos.",
+                    "fifth": "Diseño e implementación de bases de datos para gestionar servicios y usuarios."
+                }
+            }
+        }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "items": {
+            "firstProject": {
+                "name": "Predicción de Equipos de Fútbol",
+                "description": "Aplicación web para estimar un partido de fútbol balanceado basado en las habilidades de los jugadores",
+                "responsibilities": {
+
+                }
+            }
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo",
+            "message": "Mensaje",
+            "send": "Enviar"
+        }
+    },
+    "education": {
+        "title": "Educación",
+        "items": {
+            "firstDegree": {
+                "name": "Ingeniería en Informática",
+                "institution": "Universidad de Buenos Aires",
+                "status": "En curso"
+            },
+            "secondDegree": {
+                "name": "Técnico Electromecánico",
+                "institution": "Instituto Tecnológico Philips Argentina"
+            }
+        }
+    }
+}

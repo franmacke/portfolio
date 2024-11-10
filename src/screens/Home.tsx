@@ -1,12 +1,20 @@
+import Contact from "../components/Contact";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
 import Layout from "../components/Layout";
-
+import Presentation from "../components/Presentation";
+import Projects from "../components/Projects";
 
 
 const HomeScreen = () => {
 
     return (
         <Layout>
-            <h1 className="bg-red">Home</h1>
+            <Presentation />
+            <Experience />
+            <Education />
+            <Projects />
+            <Contact />
         </Layout>
     )
 }
