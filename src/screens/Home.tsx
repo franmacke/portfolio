@@ -1,9 +1,9 @@
-import Contact from "../components/Contact";
-import Education from "../components/Education";
-import Experience from "../components/Experience";
-import Layout from "../components/Layout";
-import Presentation from "../components/Presentation";
-import Projects from "../components/Projects";
+import Contact from "src/components/Contact";
+import Education from "src/components/Education";
+import Layout from "src/components/Layout";
+import Experience from "src/components/Experience";
+import Presentation from "src/components/Presentation";
+import Projects from "src/components/Projects";
 
 
 const HomeScreen = () => {

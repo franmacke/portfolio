@@ -1,4 +1,4 @@
-import { ProjectProps } from "../props/ProjectProps";
+import { ProjectProps } from "src/props/ProjectProps";
 
 
 const ProjectInfo = ({ project } : { project: ProjectProps } ) => {

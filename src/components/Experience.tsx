@@ -1,7 +1,7 @@
 import ExperienceItem from "./ExperienceItem";
 import Section from "./Section";
 import { Timeline } from "flowbite-react";
-import { ExperienceItemProps } from "../props/ExperienceProps";
+import { ExperienceItemProps } from "src/props/ExperienceProps";
 import { useTranslation } from "react-i18next";
 
 
