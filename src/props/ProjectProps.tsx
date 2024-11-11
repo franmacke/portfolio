@@ -5,4 +5,5 @@ export type ProjectProps = {
     description: string;
     link: string;
     technologies: string[];
+    image: string;
 }

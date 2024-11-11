@@ -5,6 +5,7 @@ import Experience from "src/components/Experience";
 import Presentation from "src/components/Presentation";
 import Projects from "src/components/Projects";
 import AboutMe from "src/components/AboutMe";
+import Technologies from "src/components/Technologies";
 
 
 const HomeScreen = () => {
@@ -14,6 +15,7 @@ const HomeScreen = () => {
             <Presentation />
             <AboutMe />
             <Experience />
+            <Technologies />
             <Projects />
             <Education />
             <Contact />

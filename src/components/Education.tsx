@@ -1,7 +1,6 @@
 import Section from "./Section"
-import Card from "./Card"
 import { useTranslation } from "react-i18next";
-
+import EducationItem from "./EducationItem";
 
 
 
@@ -10,25 +9,23 @@ const Education = () => {
 
     return (
         <Section title={t("education.title")}>
-            <div className="space-y-5">
-                <Card>
-                    <div className="flex-col">
-                        <div className="flex-col">
-                            <p className="text-xl font-bold">{t("education.items.firstDegree.name")}</p>
-                            <h3 className="text-sm text-gray-800">{t("education.items.firstDegree.institution")}</h3>
-                            <p className="text-sm text-gray-600">2019 - {t("education.items.firstDegree.status")}</p>
-                        </div>
-                    </div>
-                </Card>
-                <Card>
-                    <div className="flex-col">
-                        <div className="flex-col">
-                            <p className="text-xl font-bold">{t("education.items.secondDegree.name")}</p>
-                            <h3 className="text-sm text-gray-800">{t("education.items.secondDegree.institution")}</h3>
-                            <p className="text-sm text-gray-600">2013 - 2018</p>
-                        </div>
-                    </div>
-                </Card>
+            <div className="md:grid-cols-2 sm:grid-cols-1 grid gap-5">
+                <EducationItem
+                    name={t("education.items.firstDegree.name")}
+                    institution={t("education.items.firstDegree.institution")}
+                    date="2019"
+                    status={t("education.items.firstDegree.status")}
+                    image={require("../assets/images/education/uba.png")}
+                    href={"https://www.fi.uba.ar/"}
+                />
+                <EducationItem 
+                    name={t("education.items.secondDegree.name")}
+                    institution={t("education.items.secondDegree.institution")}
+                    date="2013 - 2018"
+                    status="Elementary School"
+                    image={require("../assets/images/education/philips.png")}
+                    href={"http://www.philips.edu.ar/"}
+                />
             </div>
         </Section>
     )
