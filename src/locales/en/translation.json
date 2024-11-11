@@ -49,13 +49,25 @@
     "projects": {
         "title": "Projects",
         "items": {
-            "firstProject": {
-                "name": "Project 1",
-                "description": "Description of project 1"
+            "discordBot": {
+                "name": "Discord Bot",
+                "description": "Developed a Discord bot that can be used to manage a server, play music, and more."
             },
-            "secondProject": {
-                "name": "Project 2",
-                "description": "Description of project 2"
+            "pongGame": {
+                "name": "Pong Game",
+                "description": "Developed a Pong game using Python and Pygame, with local multiplayer support."
+            },
+            "footballTeamBalancer": {
+                "name": "Football Team Balancer [WIP]",
+                "description": "Developed a web application that can be used to balance football teams."
+            },
+            "portfolio": {
+                "name": "Portfolio",
+                "description": "Developed my personal portfolio using React and Tailwind CSS."
+            },
+            "drinkMaker": {
+                "name": "Drink Maker",
+                "description": "Developed with a friend a drink maker website using ingredients from a database."
             }
         }
     },
@@ -106,5 +118,10 @@
                 "description": "Skills in SQL and NoSQL database design and management for efficient data storage and retrieval."
             }
         }
+    },
+    "aboutMe": {
+        "title": "About Me",
+        "career": "Software Developer", 
+        "description": "I am a software developer with experience in web and mobile application development. I am passionate about technology and enjoy working on challenging projects that allow me to learn and grow. I am proficient in various programming languages and frameworks, and I am always looking for new opportunities to expand my knowledge and skills."
     }
 }

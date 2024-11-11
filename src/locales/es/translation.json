@@ -36,13 +36,27 @@
     "projects": {
         "title": "Proyectos",
         "items": {
-            "firstProject": {
-                "name": "Predicción de Equipos de Fútbol",
-                "description": "Aplicación web para estimar un partido de fútbol balanceado basado en las habilidades de los jugadores",
-                "responsibilities": {
-
-                }
+            "discordBot": {
+                "name": "Bot de Discord",
+                "description": "Desarrollé un bot de Discord que puede ser utilizado para administrar un servidor, reproducir música y más."
+            },
+            "pongGame": {
+                "name": "Juego de Pong",
+                "description": "Desarrollé un juego de Pong utilizando Python y Pygame, con soporte para multijugador local."
+            },
+            "footballTeamBalancer": {
+                "name": "[TEP] Balanceador de Equipos de Fútbol",
+                "description": "Desarrollé una aplicación web que puede ser utilizada para balancear equipos de fútbol."
+            },
+            "portfolio": {
+                "name": "Portafolio",
+                "description": "Desarrollé este portafolio personal utilizando React, TypeScript y Tailwind CSS."
+            },
+            "drinkMaker": {
+                "name": "Que Tomamos",
+                "description": "Desarrollé con un amigo un sitio web de preparación de bebidas utilizando ingredientes de una base de datos."
             }
+
         }
     },
     "contact": {
@@ -92,5 +106,10 @@
                 "description": "Habilidades en diseño y gestión de bases de datos SQL y NoSQL para almacenamiento y recuperación eficientes de datos."
             }
         }
+    },
+    "aboutMe": {
+        "title": "Sobre Mí",
+        "career": "Desarrollador de Software",
+        "description": "Soy un apasionado desarrollador de software con experiencia en desarrollo web, ciencia de datos y machine learning. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente."
     }
 }
