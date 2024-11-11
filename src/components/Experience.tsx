@@ -21,7 +21,8 @@ const Experience = () => {
                 t("experience.items.firstJob.responsibilities.third"),
                 t("experience.items.firstJob.responsibilities.fourth"),
                 t("experience.items.firstJob.responsibilities.fifth")
-            ]
+            ],
+            technologies: ["Macros", "Excel", "Regression Testing"]
 
         },
         {
@@ -36,7 +37,14 @@ const Experience = () => {
                 t("experience.items.secondJob.responsibilities.fourth"),
                 t("experience.items.secondJob.responsibilities.fifth")
             ],
-            technologies: ["React Native", "Expo", "Django", "RESTful API", "SQL"]
+            technologies: ["React Native", "Expo", "Django", "RESTful API", "SQL", "React Hooks", "Python", "TypeScript"],
+            links: [
+                {
+                    text: "App",
+                    url: "https://github.com/franmacke/faciluz-app/tree/dev",
+                    description: "Link to the app repository"
+                }
+            ]
         },
         {
             title: t("experience.items.thirdJob.position"),

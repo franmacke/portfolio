@@ -1,6 +1,6 @@
 {
     "presentation": {
-        "description": "Software Developer"
+        "description": "Software Developer | Site under construction"
     },
     "experience": {
         "title": "Professional Experience",
@@ -79,6 +79,31 @@
             "secondDegree": {
                 "name": "Electromechanical Technician",
                 "institution": "Philips Argentina Technological Institute"
+            }
+        }
+    },
+    "technologies": {
+        "title": "Knowledge Areas",
+        "items": {
+            "machineLearning": {
+                "name": "Machine Learning",
+                "description": "Expert in building and training neural networks using Keras for various ML tasks."
+            },
+            "webDevelopment": {
+                "name": "Web Development",
+                "description": "Experience with React, Django, and TailwindCSS to build responsive web applications."
+            },
+            "dataScience": {
+                "name": "Data Science",
+                "description": "Experience with Pandas, Numpy, and Matplotlib for data analysis and visualization."
+            },
+            "etlPipelines": {
+                "name": "ETL Pipelines",
+                "description": "Knowledge in designing and implementing ETL pipelines for efficient data processing and transformation."
+            },
+            "databases": {
+                "name": "SQL & NoSQL Databases",
+                "description": "Skills in SQL and NoSQL database design and management for efficient data storage and retrieval."
             }
         }
     }

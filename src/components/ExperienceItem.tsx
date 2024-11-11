@@ -34,6 +34,18 @@ const ExperienceItem = ({ data }: { data: ExperienceItemProps }) => {
                                 ))}
                             </Timeline.Body>
                         )}
+
+                        <Timeline.Body>
+                            {data.links && (
+                                <List>
+                                    {data.links.map((link, index) => (
+                                        <List.Item key={index}>
+                                            <a href={link.url} target="_blank" rel="noreferrer">{link.text}</a> - {link.description}
+                                        </List.Item>
+                                    ))}
+                                </List>
+                            )}
+                        </Timeline.Body>
                     </Card>
                 </Timeline.Content>
         </Timeline.Item>

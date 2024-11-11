@@ -16,7 +16,7 @@ const projectList: ProjectProps[] = [
         description: "Developed a Pong game using Python and Pygame, with local multiplayer support.",
         link: "https://github.com/franmacke/pong",
         technologies: ["Python", "Pygame", "OOP", "Game Development"],
-        image: "discord_bot.png"
+        image: "pong.png"
     },
     {
         title: "Football Team Balancer [WIP]",
@@ -26,11 +26,18 @@ const projectList: ProjectProps[] = [
         image: "discord_bot.png"
     },
     {
-        title: "Project 4",
-        description: "This is yet another project",
-        link: "https://github.com",
-        technologies: ["React", "TypeScript"],
-        image: "discord_bot.png"
+        title: "Portfolio",
+        description: "Developed my personal portfolio using React and Tailwind CSS.",
+        link: "#",
+        technologies: ["React", "Tailwind CSS", "TypeScript"],
+        image: ""
+    },
+    {
+        title: "Drink Maker",
+        description: "Developed with a friend a drink maker website using ingredients from a database.",
+        link: "https://relaxed-custard-a3eca2.netlify.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "APIs"],
+        image: "drink_maker.png"
     }
 ]
 

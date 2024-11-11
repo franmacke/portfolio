@@ -1,6 +1,6 @@
 {
     "presentation": {
-        "description": "Desarrollador de Software"
+        "description": "Desarrollador de Software | Sitio en construcción"
     },
     "experience": {
         "title": "Experiencia Profesional",
@@ -65,6 +65,31 @@
             "secondDegree": {
                 "name": "Técnico Electromecánico",
                 "institution": "Instituto Tecnológico Philips Argentina"
+            }
+        }
+    },
+    "technologies": {
+        "title": "Conocimientos",
+        "items": {
+            "machineLearning": {
+                "name": "Machine Learning",
+                "description": "Experto en construir y entrenar redes neuronales utilizando Keras para diversas tareas de ML."
+            },
+            "webDevelopment": {
+                "name": "Desarrollo Web",
+                "description": "Experiencia con React, Django y TailwindCSS para construir aplicaciones web responsivas."
+            },
+            "dataScience": {
+                "name": "Ciencia de Datos",
+                "description": "Experiencia con Pandas, Numpy y Matplotlib para análisis y visualización de datos."
+            },
+            "etlPipelines": {
+                "name": "ETL Pipelines",
+                "description": "Conocimiento en diseño e implementación de ETL pipelines para procesamiento y transformación eficientes de datos."
+            },
+            "databases": {
+                "name": "Bases de Datos SQL y NoSQL",
+                "description": "Habilidades en diseño y gestión de bases de datos SQL y NoSQL para almacenamiento y recuperación eficientes de datos."
             }
         }
     }
