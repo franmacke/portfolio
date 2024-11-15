@@ -8,7 +8,7 @@ const Presentation = () => {
   return (
     <div className="h-screen w-full flex items-center justify-center flex-col">
       <animated.h1 className="text-7xl font-bold" style={{...props}}>Franco Macke</animated.h1>
-      <animated.h2 className="text-2xl" style={{...props}}>{t("presentation.description")}</animated.h2>
+      <animated.h2 className="text-2xl text-red-500" style={{...props}}>{t("presentation.description")}</animated.h2>
     </div>
   );
 }
