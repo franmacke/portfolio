@@ -10,13 +10,6 @@ const Projects = () => {
 
     const projectList: ProjectProps[] = [
         {
-            title: t("projects.items.discordBot.name"),
-            description: t("projects.items.discordBot.description"),
-            link: "#",
-            technologies: ["Python", "MySQL", "Discord API"],
-            image: "discord_bot.png"
-        },
-        {
             title: t("projects.items.pongGame.name"),
             description: t("projects.items.pongGame.description"),
             link: "https://github.com/franmacke/pong",
@@ -24,18 +17,18 @@ const Projects = () => {
             image: "pong.png"
         },
         {
+            title: t("projects.items.discordBot.name"),
+            description: t("projects.items.discordBot.description"),
+            link: "#",
+            technologies: ["Python", "MySQL", "Discord API"],
+            image: "discord_bot.png"
+        },
+        {
             title: t("projects.items.footballTeamBalancer.name"),
             description: t("projects.items.footballTeamBalancer.description"),
             link: "https://colab.research.google.com/drive/1zUPE1jlksdKGAVveFxUxwhS-JPlAmfNM?usp=sharing",
             technologies: ["Python", "Pandas", "Colab", "Data Analysis"],
-            image: "discord_bot.png"
-        },
-        {
-            title: t("projects.items.portfolio.name"),
-            description: t("projects.items.portfolio.description"),
-            link: "https://github.com/franmacke/portfolio/tree/dev",
-            technologies: ["React", "Tailwind CSS", "TypeScript"],
-            image: ""
+            image: "football.jpg"
         },
         {
             title: t("projects.items.drinkMaker.name"),
@@ -43,7 +36,14 @@ const Projects = () => {
             link: "https://relaxed-custard-a3eca2.netlify.app/",
             technologies: ["HTML", "CSS", "JavaScript", "APIs"],
             image: "drink_maker.png"
-        }
+        },
+        {
+            title: t("projects.items.portfolio.name"),
+            description: t("projects.items.portfolio.description"),
+            link: "https://github.com/franmacke/portfolio/tree/dev",
+            technologies: ["React", "Tailwind CSS", "TypeScript"],
+            image: "portfolio.avif"
+        },
     ]
     
     return (
