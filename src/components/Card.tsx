@@ -16,6 +16,7 @@ const Card = ({ children } : { children: React.ReactNode}) => {
             delay: 200
         },
     )
+    
 
     return (
         <animated.div 
